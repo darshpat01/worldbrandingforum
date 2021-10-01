@@ -1,0 +1,47 @@
+.wbf-video {
+  padding-top: 2em;
+}
+
+.wbf-video-head {
+  color: #0b143b;
+  font-size: 24px;
+  line-height: 1.384615384615385em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0;
+}
+.wbf-video-head2 {
+  color: #0b143b;
+  font-size: 24px;
+  line-height: 1.384615384615385em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 0.2em;
+}
+
+.wbf-small-seprator {
+  height: 2px;
+  position: relative;
+  width: 22px;
+  display: block;
+  background-color: #0b143b;
+  margin-bottom: 1em;
+}
+
+.wbf-iframediv {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.wbf-video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
