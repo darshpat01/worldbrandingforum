@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*
+Theme Name: brandingforum */
+body {
+	font-family: Raleway,sans-serif;
+	color:#818181;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	color:#0b143b;
+	font-weight: bold;
+	margin-bottom:25px;
+}
+h1,.h1{font-size: 30px;}
+h2,.h2{font-size: 24px;}
+.h3, h3 {font-size: 17px;}
+a, a:hover{
+	text-decoration:none;
+}
+header{
+	background:#0b143b;
+}
+.navbar-nav>li>a {
+    position: relative;
+    padding: 0 17px;
+    color: #9d9d9d;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.navbar-nav>li>a:hover,
+.navbar-nav>li.current-menu-item > a,
+ul.sub-menu li a:hover{
+    color: #fff;
+}
+.navbar-nav li{
+	position:relative;
+}
+ul.sub-menu {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left:0px;
+    top: 100%;
+    display: none;
+    z-index: 1;
+    background: #0f1c52;
+    min-width: 180px;
+    border: 1px solid #0b143b;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+	
+}
+ul.sub-menu li a {
+    display: block;
+    color: #9d9d9d;
+	font-size:12px;
+	padding:8px 16px;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-nav li.menu-item-has-children:hover > ul.sub-menu {
+    display: block;
+}
+.carousel-item img{
+	height:550px;
+	width:100%;
+	object-fit:cover;
+}
+.carousel-caption h2,
+.carousel-caption .content{
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 40%);
+	margin:12px auto;
+	text-transform:uppercase;
+	font-size: 65px;
+}
+.carousel-caption .content{
+	background-color: rgba(247, 183, 56, 1);
+    padding:4px 15px;
+	font-size: 26px;
+    letter-spacing: 1px;
+	display:inline-block;
+}
+.btn,.btn:hover{
+	 background-color: #0b143b;
+	color:#fff;
+}
+.carousel-control-next, .carousel-control-prev{
+	height: 54px;
+    width: 54px;
+    border: 2px solid #fff;
+    line-height: 54px;
+    border-radius: 100%;
+	margin:auto 25px;
+	opacity:1
+}
+.carousel-control-next {
+    transform: rotate(-90deg);
+}
+.carousel-control-prev {
+    transform: rotate(90deg);
+}
+.page_list .hover{
+	background-color: rgba(0,0,0,.5);
+	height:250px;
+	z-index:1;
+}
+.page_list .hover > h2{
+	top: 0;
+    left: 0;
+	z-index:-1;
+}
+.page_list .hover > div,
+.page_list .hover:hover > h2{display:none;opacity:0}
+.page_list .hover:hover > div{
+	opacity:1;
+	display:block
+}
+.h4, h4 {
+    font-size: 19px;
+	line-height: 1.375em;
+    font-weight: normal !important;
+}
+#timer{
+	font-size:44px;
+	text-align:center;
+	font-weight:bold;
+	color:#818181;
+	text-transform:uppercase
+}
+#timer div{
+	padding:15px 30px;
+}
+#timer span{
+	display:block;
+	font-size:24px;
+	font-weight:normal;
+	margin-top:15px;
+}
+.our_achievements h2 span{display:block;}
+.our_achievements h2{
+	text-align:center;
+	font-size: 28px;
+    font-weight: 800;
+    color: #ffffff;
+}
+section.media_coverage{
+	background:#1e73be
+}
+.site-footer{
+	background-color: #0b143b;
+}
+.copy-right{
+	background:#1b1b1b;
+}
+footer .navbar-nav>li>a{
+	padding:0;
+}
+
+.social-icons a{display:inline-block;margin-right:8px; color:#0b143b; font-size:18px}
+footer .social-icons a{color:#fff;}
+footer .navbar-nav li.menu-item-has-children:hover > ul.sub-menu{display:none}
+span.wpcf7-form-control-wrap + br {
+    display: none;
+}
+input.wpcf7-form-control,
+textarea.wpcf7-form-control{
+    padding: 7px 16px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+textarea.wpcf7-form-control{height:120px;resize:none}
+span.wpcf7-form-control-wrap {
+    display: inline-block;
+    width: 48%;
+    margin: 4px 4px;
+	margin-bottom:15px;
+}
+span.wpcf7-form-control-wrap.message,
+span.wpcf7-form-control-wrap.agencyType{width:100%;}
+input.wpcf7-form-control.wpcf7-submit.btn {width: auto;}
+.wpcf7-not-valid-tip{position:absolute;left:0;bottom:-15px;font-size:12px}
+.wpcf7-validates-as-required.wpcf7-not-valid { border-color: hsl(0deg 100% 50% / 35%);}
+.wpcf7-list-item{margin:0; margin-right:20px;}
