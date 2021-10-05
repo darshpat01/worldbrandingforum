@@ -1,0 +1,16 @@
+.wbf-presenters-cont h2 {
+  /* text-align: center; */
+  font-size: 24px;
+  line-height: 1.384615384615385em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.wbf-presenters-cont {
+  text-align: center;
+}
+
+.wbf-presenter-dets {
+  text-align: left;
+}
